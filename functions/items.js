@@ -3,6 +3,7 @@ exports.handler = async function (event, context) {
     const items = [
       { id: 1, name: "Item 1" },
       { id: 2, name: "Item 2" },
+        { id: 3, name: "Item 3" },
     ];
   
     if (event.httpMethod === "GET") {
